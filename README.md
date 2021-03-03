@@ -1,18 +1,18 @@
-# hypercore-cache
-[![Build Status](https://travis-ci.com/andrewosh/hypercore-cache.svg?token=WgJmQm3Kc6qzq1pzYrkx&branch=master)](https://travis-ci.com/andrewosh/hypercore-cache)
+# ddatabase-cache
 
-A caching module for Hypercore tree nodes and blocks.
+
+A caching module for dDatabase tree nodes and blocks.
 
 This module mplements the [hashlru](https://github.com/dominictarr/hashlru) algorithm internally for LRU caching, but it uses byte length estimates instead of the entry count for eviction.
 
 ### Installation
 ```
-npm i hypercore-cache --save
+npm i ddatabase-cache --save
 ```
 
 ### API
 
-#### `const cache = new HypercoreCache(opts = {})`
+#### `const cache = new DDatabaseCache(opts = {})`
 Creates a new cache.
 
 Options can include:
@@ -34,9 +34,9 @@ Gets the value for `key`.
 Deletes `key` from the cache.
 
 #### `const subCache = cache.namespace()`
-Creates a namespaced sub-cache which mirrors the hypercore-cache API.
+Creates a namespaced sub-cache which mirrors the ddatabase-cache API.
 
-This is useful if you want to create a single cache instance that manages resources for multiple hypercores.
+This is useful if you want to create a single cache instance that manages resources for multiple dDatabases.
 
 ### License
 MIT
