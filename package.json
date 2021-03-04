@@ -8,16 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "https://github.com/dwebprotocol/ddatabase-cache.git"
   },
   "keywords": [
     "ddatabase",
     "cache"
   ],
-  "author": "Andrew Osheroff <andrewosh@gmail.com>",
+  "author": "PeepsLabs <peepslabs@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/"
+    "url": "https://github.com/dwebprotocol/ddatabase-cache/issues"
   },
   "homepage": "https://dwebx.org",
   "devDependencies": {
