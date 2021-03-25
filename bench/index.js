@@ -1,6 +1,6 @@
 const hashlru = require('hashlru')
 const alru = require('array-lru')
-const HypercoreCache = require('..')
+const DDatabaseCache = require('..')
 
 const NUM_VALUES = 1024 * 1024
 
@@ -18,7 +18,7 @@ function bench (name, cache) {
   console.timeEnd(name)
 }
 
-const baseCache = new HypercoreCache({
+const baseCache = new DDatabaseCache({
   maxByteSize: NUM_VALUES * 8,
   estimateSize: val => 8
 })

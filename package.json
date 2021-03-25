@@ -1,6 +1,6 @@
 {
   "name": "@ddatabase/cache",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A caching module for dDatabase tree nodes and blocks ",
   "main": "index.js",
   "scripts": {
